@@ -37,13 +37,10 @@ set ignorecase
 nmap <silent> // :nohlsearch<CR>
 
 " Indentation
-set autoindent
-set smartindent
-set smarttab
+set shiftround
 set shiftwidth=2
-set softtabstop=2
 set tabstop=2
-set noexpandtab
+set expandtab
 
 " End of line
 set list listchars=tab:\ \ ,trail:·
