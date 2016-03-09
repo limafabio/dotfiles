@@ -22,6 +22,7 @@ set background=dark
 
 " General configs (:help <config>)
 set autoread
+set diffopt+=vertical
 set history=1000
 set laststatus=2
 set number
