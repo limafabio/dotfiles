@@ -8,7 +8,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'itchyny/lightline.vim'
-Plugin 'jnwhiteh/vim-golang'
+Plugin 'fatih/vim-go'
 call vundle#end()
 filetype plugin indent on
 
