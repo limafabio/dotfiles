@@ -32,8 +32,8 @@ gco='git checkout'
 gr='git remote'
 gra='git remote add'
 
+gs='git status'
 gsb='git status -sb'
-gst='git status'
 
 ggpush='git push origin $(git_current_branch)'
 gp='git push'
