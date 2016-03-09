@@ -1,0 +1,8 @@
+[user]
+  name = Rafael
+  email = rafael.regisp@gmail.com
+[github]
+  user = rafaelregis
+[core]
+  editor = vim
+  excludesfile = /Users/rafael/.gitignore_global
