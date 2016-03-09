@@ -50,6 +50,10 @@ set list listchars=tab:\ \ ,trail:·
 set nowrap
 set linebreak
 
+" Columns
+set textwidth=80
+set colorcolumn=+1
+
 " No swp files
 set nobackup
 set noswapfile
