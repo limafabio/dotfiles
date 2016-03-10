@@ -4,7 +4,7 @@ export ZSH=/Users/rafael/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 plugins=(git)
 
-export GOPATH=$HOME/code/go
+export GOPATH=$HOME
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/usr/local/opt/go/libexec/bin:$GOPATH/bin"
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
