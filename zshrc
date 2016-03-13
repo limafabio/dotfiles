@@ -73,3 +73,5 @@ alias glola='git log --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Cr
 alias gsps='git show --pretty=short --show-signature'
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 
+# Load travis.sh
+[ -f /Users/rafael/.travis/travis.sh ] && source /Users/rafael/.travis/travis.sh
