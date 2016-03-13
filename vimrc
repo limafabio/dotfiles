@@ -10,6 +10,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'fatih/vim-go'
 Plugin 'itchyny/lightline.vim'
+Plugin 'raimondi/delimitmate'
 Plugin 'tpope/vim-fugitive'
 call vundle#end()
 filetype plugin indent on
