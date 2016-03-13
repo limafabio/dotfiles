@@ -72,3 +72,15 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
+" Completion
+set wildmode=list:longest
+set wildignore=*.o,*.obj,*~
+set wildignore+=*vim/backups*
+set wildignore+=vendor/cache/*
+set wildignore+=*DS_Store*
+
+" Scrolling
+set scrolloff=8
+set sidescrolloff=15
+set sidescroll=1
