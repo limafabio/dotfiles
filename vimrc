@@ -15,6 +15,11 @@ Plugin 'tpope/vim-fugitive'
 call vundle#end()
 filetype plugin indent on
 
+" GitGutter
+let g:gitgutter_realtime = 1
+let g:gitgutter_eager = 1
+set updatetime=250
+
 " CtrlP
 let g:ctrlp_switch_buffer = 0
 
