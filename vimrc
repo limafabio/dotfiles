@@ -9,6 +9,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'fatih/vim-go'
+Plugin 'majutsushi/tagbar'
 Plugin 'itchyny/lightline.vim'
 Plugin 'raimondi/delimitmate'
 Plugin 'shougo/neocomplete.vim'
@@ -20,6 +21,11 @@ filetype plugin indent on
 let g:gitgutter_realtime = 1
 let g:gitgutter_eager = 1
 set updatetime=250
+
+" tagbar
+nmap <silent> <C-t> :TagbarToggle<CR>
+imap <silent> <C-t> <ESC>:TagbarToggle<CR>
+cmap <silent> <C-t> <ESC>:TagbarToggle<CR>
 
 " neocomplete
 let g:neocomplete#enable_at_startup = 1
