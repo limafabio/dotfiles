@@ -10,12 +10,17 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'fatih/vim-go'
 Plugin 'majutsushi/tagbar'
-Plugin 'itchyny/lightline.vim'
 Plugin 'raimondi/delimitmate'
 Plugin 'shougo/neocomplete.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()
 filetype plugin indent on
+
+" airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme='powerlineish'
 
 " GitGutter
 let g:gitgutter_realtime = 1
