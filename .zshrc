@@ -2,7 +2,7 @@
 export ZSH=/Users/rafael/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
-plugins=(git)
+plugins=()
 
 export GOPATH=$HOME
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin:/usr/local/opt/go/libexec/bin:$GOPATH/bin"
