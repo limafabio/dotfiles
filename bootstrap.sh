@@ -3,9 +3,15 @@
 git pull origin master;
 
 function bootstrap() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
-		--exclude "README.md" --exclude "LICENSE" -avh --no-perms . ~;
-	source ~/.zshrc
+  rsync \
+    --exclude ".DS_Store" \
+    --exclude ".git/" \
+    --exclude "LICENSE" \
+    --exclude "README.md" \
+    --exclude "bootstrap.sh" \
+    --exclude "brew.sh" \
+    -avh --no-perms . ~;
+  source ~/.zshrc
 }
 bootstrap;
 unset bootstrap;
