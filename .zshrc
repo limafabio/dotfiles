@@ -15,6 +15,7 @@ if which rbenv > /dev/null; then
 fi
 
 [ -f ~/aliases.sh ] && source ~/aliases.sh
+[ -f ~/.extras.sh ] && source ~/.extras.sh
 
 # Load travis.sh
 [ -f /Users/rafael/.travis/travis.sh ] && source /Users/rafael/.travis/travis.sh
