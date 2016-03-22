@@ -14,7 +14,7 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)";
 fi
 
-[ -f ~/aliases.sh ] && source ~/aliases.sh
+[ -f ~/.aliases.sh ] && source ~/.aliases.sh
 [ -f ~/.extras.sh ] && source ~/.extras.sh
 
 # Load travis.sh
