@@ -6,6 +6,7 @@ function bootstrap() {
   rsync \
     --exclude ".DS_Store" \
     --exclude ".git/" \
+    --exclude ".gitignore" \
     --exclude "LICENSE" \
     --exclude "README.md" \
     --exclude "bootstrap.sh" \
