@@ -101,6 +101,7 @@ set shiftround
 set shiftwidth=2
 set tabstop=2
 set expandtab
+set backspace=indent,eol,start
 
 " End of line
 set list listchars=tab:\ \ ,trail:·
